@@ -42,8 +42,8 @@ jobs:
       - name: Setup Pages
         uses: actions/configue-pages@v5
 
-      - name: Upload Build Artifacts
-        uses: actions/upload-pages-artifacts
+      - name: Upload Build Artifact
+        uses: actions/upload-pages-artifact@v5
         with:
           path: "./dist"
 
